@@ -80,21 +80,5 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/dist/main.js"
-    }
-  ],
-  "env": {
-    "NODE_ENV": "production",
-    "DATABASE_URL": "mongodb+srv://krishna:%5B%40Mongodb5%23%5D@cluster0.x5un7ou.mongodb.net/taskManagerDB?retryWrites=true&w=majority&appName=Cluster0"
   }
 }
